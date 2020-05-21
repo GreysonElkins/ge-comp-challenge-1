@@ -1,6 +1,8 @@
+/*
 * {
   	border: 1px  dotted pink;
 }
+*/
 body {
 	background-color: lightgray;
 	margin: 0px;
@@ -23,6 +25,7 @@ button {
 h1 {
   	color: green;
 }
+
 .dropdown {
 	width: 150px;
 	background-color: #4A4A4A;
@@ -57,11 +60,12 @@ h1 {
 }
 .card {
 	width: 23%;
-	height: 200px;
-	background-color: white;	
 	margin: 3px;
 }
 #logo {
 	width: 100px;
 	margin-bottom: 10px;
+}
+.tarot {
+	width: 100%;
 }
