@@ -1,8 +1,6 @@
-/*
 * {
-  	border: 1px  dotted pink;
+  	border: 1px  dotted green;
 }
-*/
 body {
 	background-color: lightgray;
 	margin: 0px;
@@ -24,6 +22,14 @@ button {
 }
 h1 {
   	color: green;
+}
+h3 {
+	color: blue;
+	font-size: 1em;
+	text-align: center;
+	height: 1em;
+	width: 100%;
+	background-color: rgba(186, 186, 186, 0.8);
 }
 
 .dropdown {
@@ -61,11 +67,25 @@ h1 {
 .card {
 	width: 23%;
 	margin: 3px;
+	display: grid;
+	grid-template-columns: 30px 1fr 20px;
+	grid-template-rows: 16% 16% 16% 16% 16% 16%;
+}
+.tarot-img {
+	width: 100%;
+}
+.card > div:nth-child(1) {
+	grid-column: 1 / span 4;
+	grid-row: 1 / span 7;
+}
+
+.card > div:nth-child(2) {
+	grid-column: 1 / 5;
+	grid-row: 4;
+
+	
 }
 #logo {
 	width: 100px;
 	margin-bottom: 10px;
-}
-.tarot {
-	width: 100%;
 }
