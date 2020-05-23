@@ -2,39 +2,55 @@
   	/* border: 1px  dotted green; */
 		font-family: 'Roboto';
 }
-@media screen and (min-width: 60em) {
-	.nav-container, .content {
-		width: 56em;
-		margin: auto;
-	}
+	@media screen and (min-width: 60em) {
+		.nav-container, .content {
+			width: 56em;
+			margin: auto;
+		}
 
-}
-@media screen and (max-width: 32em)
-{
-	.nav-container {
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
-		flex-direction: row;
-		box-sizing: border-box;
+
 	}
-	button {
-		font-size: .05em;
+	@media screen and (min-width: 40em) {
+		.card {
+			width: 23%;
+		}
 	}
-	.page-buttons {
-		flex-direction: column;
-		align-items: flex-start;
+	@media screen and (max-width: 40em) {
+		.card {
+			width: 45%;
+		}
 	}
-	.page-info {
-		display: flex;
-		align-content: flex-end;
-		justify-content: flex-end;
+	@media screen and (max-width: 32em)
+	{
+		.nav-container {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			box-sizing: border-box;
+		}
+		button {
+			font-size: .05em;
+		}
+		.page-buttons {
+			flex-direction: column;
+			align-items: flex-start;
+			font-size: .95em;
+		}
+		.page-info {
+			display: flex;
+			align-content: flex-end;
+			justify-content: flex-end;
+		}
 	}
-}
 nav, select, button {
 	background-color: #424B54;
 	color: #F9F7F3;
 	border: none;
+}
+select {
+	font-size: .2em;
+	color: #8AB0AB;
 }
 body {
 	background-color: #F9F7F3;
@@ -42,7 +58,7 @@ body {
 }
 nav {
 	width: 100%;
-	height: 10em;
+	height: 9.25em;
 	padding: 1em 2em 2em 2em;
 	box-sizing: border-box;
 }
@@ -54,6 +70,10 @@ button {
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
+}
+h1 {
+	color: #424b54;
+	font-size: 1.75em;
 }
 .page-buttons {
 	width: 30%;
@@ -88,7 +108,7 @@ button {
 	justify-content: space-around;
 }
 .card {
-	width: 23%;
+	/* width: 23%; */
 }
 .tarot-img {
 	width: 100%;
