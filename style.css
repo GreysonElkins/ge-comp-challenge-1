@@ -1,10 +1,40 @@
 * {
-  	border: 1px  dotted green;
+  	/* border: 1px  dotted green; */
 		font-family: 'Roboto';
+}
+@media screen and (min-width: 60em) {
+	.nav-container {
+		width: 56em;
+		margin: auto;
+	}
+
+}
+@media screen and (max-width: 32em)
+{
+	.nav-container {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		box-sizing: border-box;
+	}
+	button {
+		font-size: .05em;
+	}
+	.page-buttons {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.page-info {
+		display: flex;
+		align-content: flex-end;
+		justify-content: flex-end;
+	}
 }
 nav, select, button {
 	background-color: #424B54;
 	color: #F9F7F3;
+	border: none;
 }
 body {
 	background-color: #F9F7F3;
@@ -12,14 +42,18 @@ body {
 }
 nav {
 	width: 100%;
-	height: 7.5em;
+	height: 10em;
 	padding: 1em 2em 2em 2em;
-	display: flex;
-	align-items: flex-end;
-	justify-content: space-between;
+	box-sizing: border-box;
 }
 button {
 	font-size: 1.2em;
+}
+.nav-container {
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
 }
 .page-buttons {
 	width: 30%;
@@ -28,7 +62,6 @@ button {
 }
 .page-info {
 	height: 100%;
-	margin-right: 4em;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -41,7 +74,6 @@ button {
 #user-icon {
 	width: 1em;
 }
-
 #logo {
 	width: 8em;
 }
