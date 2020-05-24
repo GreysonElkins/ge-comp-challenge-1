@@ -1,170 +1,201 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="./style.css">
-    <title>TITLE</title>
+    <title>TAROT</title>
   </head>
-<body>
-  <nav>
-    <section class="page-buttons">
-      <button>Reading</button>
-      <button>Dictionary</button>
-      <button>Shop</button>
+
+  <body>
+    <!-- nav buttons NEED ICONS -->
+    <nav>
+
+      <div class="nav-container">
+
+        <section class="page-buttons">
+          <button>READING</button>
+          <button>DICTIONARY</button>
+          <button>SHOP</button>
+        </section>
+
+        <section class="page-info">
+
+          <div class="menu">
+    	    <img src="./assets/user-icon.png" id="user-icon" alt="user icon"/>
+          	<select class ="dropdown"><option>Eight Card Spread</option></select>
+    	    </div>
+
+          <div>
+            <img src="./assets/logo.png" alt="logo" id="logo"/>
+          </div>
+
+      </div>
+
+      </section>
+
+    </nav>
+
+    <section class="content">
+
+      <h1>Reading</h1>
+
+      <section class="card-view">
+
+        <article class="card" id="card1">
+
+          <div>
+            <img src="./assets/cards/page-of-pentacles-c.png" class="tarot-img" alt="A youthful figure, looking intently at the pentacle that hovers over his raised hands"/>
+          </div>
+
+          <div class="card-info">
+            <h3 class="tarot-title">Page of Pentacles</h3>
+            <blockquote>
+              <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/page-of-pentacles-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/page-of-pentacles-meaning-tarot-card-meanings</a>
+            </blockquote>
+            <h5> arcana </h5>
+            <h4 id="arcana">MINOR</h4>
+          </div>
+
+
+        </article>
+
+        <article class="card" id="card2">
+
+          <div>
+            <div>
+              <img src="./assets/cards/ace-of-pentacles-c.png" class="tarot-img" alt="A hand issuing from a cloud- holds up a pentacle over a garden with mountains in the distance."/>
+            </div>
+          </div>
+
+          <div class="card-info" id="card3">
+            <h3 class="tarot-title">Ace of Pentacles</h3>
+            <blockquote>
+              <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-pentacles-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/ace-of-pentacles-meaning-tarot-card-meanings</a>
+            </blockquote>
+            <h5>arcana</h5>
+            <h4 id="arcana">minor</h4>
+          </div>
+
+        </article>
+
+        <article class="card" id="card3">
+
+          <div>
+            <div>
+              <img src="./assets/cards/high-priestess-c.png" class="tarot-img" alt="A woman in blue robes with a crown sits between a two pillars pillar with a tapestry of fronds and fruit behind her."/>
+            </div>
+          </div>
+
+          <div class="card-info">
+            <h3 class="tarot-title">The High Priestess</h3>
+            <blockquote>
+              <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/high-priestess-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/high-priestess-meaning-tarot-card-meanings</a>
+            </blockquote>
+            <h5>arcana</h5>
+            <h4 id="arcana">major</h4>
+          </div>
+
+        </article>
+
+        <article class="card" id="card4">
+
+          <div>
+            <div>
+              <img src="./assets/cards/ten-of-pentacles-c.png" class="tarot-img" alt="A man and a woman beneath an archway which gives entrance to a house and domain"/>
+            </div>
+          </div>
+
+          <div class="card-info">
+    				<h3 class="tarot-title">Ten of Pentacles</h3>
+    				<blockquote>
+    					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-pentacles-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/ten-of-pentacles-meaning-tarot-card-meanings</a>
+    				</blockquote>
+    				<h5>arcana</h5>
+    				<h4 id="arcana">minor</h4>
+    			</div>
+
+        </article>
+
+        <article class="card" id="card5">
+
+          <div>
+            <div>
+              <img src="./assets/cards/ace-of-wands-c.png" class="tarot-img" alt="A hand issuing from a cloud over a field and mountain range grasps a stout Wand or Club"/>
+            </div>
+          </div>
+
+          <div class="card-info">
+            <h3 class="tarot-title">Ace of Wands</h3>
+            <blockquote>
+              <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-wands-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/ace-of-wands-meaning-tarot-card-meanings</a>
+            </blockquote>
+            <h5>arcana</h5>
+            <h4 id="arcana">minor</h4>
+          </div>
+
+        </article>
+
+        <article class="card" id="card6">
+
+          <div>
+            <div>
+              <img src="./assets/cards/star-c.png" class="tarot-img" alt="A nude woman pouring two jugs, one into a pond and one on the earth under a sky full of stars."/>
+            </div>
+          </div>
+
+          <div class="card-info">
+            <h3 class="tarot-title">The Star</h3>
+            <blockquote>
+              <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/star-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/star-meaning-tarot-card-meanings</a>
+            </blockquote>
+            <h5>arcana</h5>
+            <h4 id="arcana">major</h4>
+          </div>
+
+        </article>
+
+        <article class="card" id="card7">
+
+          <div>
+            <div>
+              <img src="./assets/cards/two-of-cups-c.png" class="tarot-img" alt="A youth and maiden are pledging to one another. Above their cups rises the caduceus of Hermes, between those great wings there appears a lion's head."/>
+            </div>
+          </div>
+
+          <div class="card-info">
+            <h3 class="tarot-title">Two of Cups</h3>
+            <blockquote>
+              <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/two-of-cups-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/Two-of-Cups-meaning-tarot-card-meanings</a>
+            </blockquote>
+            <h5>arcana</h5>
+            <h4 id="arcana">minor</h4>
+          </div>
+
+        </article>
+
+        <article class="card" id="card8">
+
+          <div>
+            <div>
+              <img src="./assets/cards/king-of-wands-c.png" class="tarot-img" alt="A king sits on his throne, uplifting a flowering Wand and wears what is called a cap of maintenance beneath his crown. His throne is emblazoned with the symbol of the lion."/>
+            </div>
+          </div>
+
+          <div class="card-info">
+    				<h3 class="tarot-title">King of Wands</h3>
+    				<blockquote>
+    					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/king-of-wands-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/king-of-wands-meaning-tarot-card-meanings</a>
+    				</blockquote>
+    				<h5>arcana</h5>
+    				<h4 id="arcana">minor</h4>
+    			</div>
+
+        </article>
+
+      </section>
+
     </section>
-    <section class="page-info">
-      <div class="menu"><br>
-	    <img src="./assets/user-icon.png" id="user-icon" alt="user icon"/>
-      	<select class ="dropdown"><option>Eight Card Spread</option></select>
-	  </div>
-      <img src="./assets/logo.png" alt="logo" id="logo"/>
-    </section>
-  </nav>
 
-  <section class="content">
-
-    <h1>Reading</h1>
-
-    <section class="card-view" id="card1">
-
-      <div class="card">
-        <div>
-  				<img src="./assets/cards/page-of-pentacles-c.png" class="tarot-img" alt="A youthful figure, looking intently at the pentacle that hovers over his raised hands"/>
-  			</div>
-  			<div class="card-info">
-  				<h3 class="tarot-title">Page of Pentacles</h3>
-  				<blockquote>
-  					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/page-of-pentacles-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/page-of-pentacles-meaning-tarot-card-meanings</a>
-  				</blockquote>
-  				<h5>arcana</h5>
-  				<h4 id="arcana">minor</h4>
-  			</div>
-  			<div>
-  				<img src="./assets/icon.png" class="icon" alt="abstract eyeball icon"/>
-  			</div>
-      </div>
-
-      <div class="card" id="card2">
-  			<div>
-  				<img src="./assets/cards/ace-of-pentacles-c.png" class="tarot-img" alt="A hand issuing from a cloud- holds up a pentacle over a garden with mountains in the distance."/>
-  			</div>
-  			<div class="card-info">
-  				<h3 class="tarot-title">Ace of Pentacles</h3>
-  				<blockquote>
-  					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-pentacles-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/ace-of-pentacles-meaning-tarot-card-meanings</a>
-  				</blockquote>
-  				<h5>arcana</h5>
-  				<h4 id="arcana">minor</h4>
-  			</div>
-  			<div>
-  				<img src="./assets/icon.png" class="icon" alt="abstract eyeball icon"/>
-  			</div>
-      </div>
-
-      <div class="card" id="card3">
-  			<div>
-  				<img src="./assets/cards/high-priestess-c.png" class="tarot-img" alt="A woman in blue robes with a crown sits between a two pillars pillar with a tapestry of fronds and fruit behind her."/>
-  			</div>
-  			<div class="card-info">
-  				<h3 class="tarot-title">The High Priestess</h3>
-  				<blockquote>
-  					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/high-priestess-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/high-priestess-meaning-tarot-card-meanings</a>
-  				</blockquote>
-  				<h5>arcana</h5>
-  				<h4 id="arcana">major</h4>
-  			</div>
-  			<div>
-  				<img src="./assets/icon.png" class="icon" alt="abstract eyeball icon"/>
-  			</div>
-      </div>
-
-      <div class="card" id="card4">
-  			<div>
-  				<img src="./assets/cards/ten-of-pentacles-c.png" class="tarot-img" alt="A man and a woman beneath an archway which gives entrance to a house and domain"/>
-  			</div>
-  			<div class="card-info">
-  				<h3 class="tarot-title">Ten of Pentacles</h3>
-  				<blockquote>
-  					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-pentacles-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/ten-of-pentacles-meaning-tarot-card-meanings</a>
-  				</blockquote>
-  				<h5>arcana</h5>
-  				<h4 id="arcana">minor</h4>
-  			</div>
-  			<div>
-  				<img src="./assets/icon.png" class="icon" alt="abstract eyeball icon"/>
-  			</div>
-      </div>
-
-      <div class="card" id="card5">
-  			<div>
-  				<img src="./assets/cards/ace-of-wands-c.png" class="tarot-img" alt="A hand issuing from a cloud over a field and mountain range grasps a stout Wand or Club"/>
-  			</div>
-  			<div class="card-info">
-  				<h3 class="tarot-title">Ace of Wands</h3>
-  				<blockquote>
-  					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/ace-of-wands-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/ace-of-wands-meaning-tarot-card-meanings</a>
-  				</blockquote>
-  				<h5>arcana</h5>
-  				<h4 id="arcana">minor</h4>
-  			</div>
-  			<div>
-  				<img src="./assets/icon.png" class="icon" alt="abstract eyeball icon"/>
-  			</div>
-      </div>
-
-  		<div class="card" id="card6">
-  			<div>
-  				<img src="./assets/cards/star-c.png" class="tarot-img" alt="A nude woman pouring two jugs, one into a pond and one on the earth under a sky full of stars."/>
-  			</div>
-  			<div class="card-info">
-  				<h3 class="tarot-title">The Star</h3>
-  				<blockquote>
-  					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/star-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/star-meaning-tarot-card-meanings</a>
-  				</blockquote>
-  				<h5>arcana</h5>
-  				<h4 id="arcana">major</h4>
-  			</div>
-  			<div>
-  				<img src="./assets/icon.png" class="icon" alt="abstract eyeball icon"/>
-  			</div>
-      </div>
-
-  		<div class="card" id="card4">
-  			<div>
-  				<img src="./assets/cards/two-of-cups-c.png" class="tarot-img" alt="A youth and maiden are pledging to one another. Above their cups rises the caduceus of Hermes, between those great wings there appears a lion's head."/>
-  			</div>
-  			<div class="card-info">
-  				<h3 class="tarot-title">Two of Cups</h3>
-  				<blockquote>
-  					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/two-of-cups-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/Two-of-Cups-meaning-tarot-card-meanings</a>
-  				</blockquote>
-  				<h5>arcana</h5>
-  				<h4 id="arcana">minor</h4>
-  			</div>
-  			<div>
-  				<img src="./assets/icon.png" class="icon" alt="abstract eyeball icon"/>
-  			</div>
-      </div>
-
-      <div class="card" id="card8">
-  			<div>
-  			<img src="./assets/cards/king-of-wands-c.png" class="tarot-img" alt="A king sits on his throne, uplifting a flowering Wand and wears what is called a cap of maintenance beneath his crown. His throne is emblazoned with the symbol of the lion."/>
-  			</div>
-  			<div class="card-info">
-  				<h3 class="tarot-title">King of Wands</h3>
-  				<blockquote>
-  					<a href="https://labyrinthos.co/blogs/tarot-card-meanings-list/king-of-wands-meaning-tarot-card-meanings" class="tarot-meaning">https://labyrinthos.co/king-of-wands-meaning-tarot-card-meanings</a>
-  				</blockquote>
-  				<h5>arcana</h5>
-  				<h4 id="arcana">minor</h4>
-  			</div>
-  			<div>
-  				<img src="./assets/icon.png" class="icon" alt="abstract eyeball icon"/>
-  			</div>
-      </div>
-
-      </div>
-
-    </section>
-  </section>
-</body>
-</html>
+  </body>
