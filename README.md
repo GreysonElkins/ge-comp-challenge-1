@@ -35,10 +35,10 @@ I'd like to get a lot more comfortable with CSS, and particularly I'd like to fi
 I've always thought of HTML and CSS as finicky languages, and although I still probably do, finishing this project has helped me to get more excited about learning and using more of them in the future.
 ## Resources
 ###
-CSS-tricks.com css-tricks.com
-MDN web docs developer.mozilla.org
-Stack overflow stackoverflow.com
+[CSS-tricks.com](css-tricks.com)  
+[MDN web docs](developer.mozilla.org)  
+[Stack overflow](stackoverflow.com)   
 The Rider-Waite Tarot Deck
-sketchappsources.com
-vectorstock.com
-Thomas Taylor dribble.com
+[Sketch app](sketchappsources.com)
+[Vectorstock](vectorstock.com)
+[Thomas Taylor](https://dribbble.com/shots/7014775-Mystic-Gypsy-Fortune-Teller/attachments)
