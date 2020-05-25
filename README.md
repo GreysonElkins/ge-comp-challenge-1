@@ -4,17 +4,18 @@ Tarot is a static comp of a website for getting tarot readings.
 
 ## Project Status
 ###
-This project would require quite a bit more development to be a functioning website, but as a static comp it's complete. It was designed based on a provided static comp, with some creative license allowed (see directly below).
-# IMAGE HERE
+This project would require quite a bit more development to be a functioning website, but as a static comp it's complete. It was designed based on a provided static comp, with some creative license allowed (see directly below).  
+![Original layout example:](./assets/readme/original-layout.jpg)
 ## Website screen grabs
 ###
 Desktop view:  
- ***(at this size, the styling prevents the content from getting any larger, so the content never overwhelms a reader who has an external monitor)***
+ *(at this size, the styling prevents the content from getting any larger, so the content never overwhelms a reader who has an external monitor)*   
+![Website view on a desktop:](./assets/readme/desktop-view.png)
 ###
-Tablet view:
-
-iPad view:  
-sdfasfdasdfa
+Tablet view:  
+![Website view on a tablet:](./assets/readme/tablet-view.png)
+Phone view: 
+![Website view on a phone:](./assets/readme/phone-view.png)
 
 ## Using the Site:
 ###
