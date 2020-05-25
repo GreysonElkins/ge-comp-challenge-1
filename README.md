@@ -38,7 +38,7 @@ I've always thought of HTML and CSS as finicky languages, and although I still p
 [CSS-tricks.com](css-tricks.com)  
 [MDN web docs](developer.mozilla.org)  
 [Stack overflow](stackoverflow.com)   
-The Rider-Waite Tarot Deck
-[Sketch app](sketchappsources.com)
-[Vectorstock](vectorstock.com)
+The Rider-Waite Tarot Deck  
+[Sketch app](sketchappsources.com)  
+[Vectorstock](vectorstock.com)  
 [Thomas Taylor](https://dribbble.com/shots/7014775-Mystic-Gypsy-Fortune-Teller/attachments)
